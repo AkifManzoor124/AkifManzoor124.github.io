@@ -5,6 +5,13 @@ body{
     box-sizing:border-box;
 }
 
+h1{
+    text-align: center;
+    background-color: #333;
+    margin: 0%;
+    padding: 2px;
+}
+
 #landing_page{
     height: 100vh;
     display: flex;
@@ -62,4 +69,16 @@ body{
     }
 }
 
+#projects_page{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 
+#projects_page .project{
+    background-color: green;
+    height: 250px;
+    width: calc(33.3333% - 1rem);
+    margin: 0.5rem;
+    text-align: center;
+}

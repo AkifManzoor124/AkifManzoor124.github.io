@@ -18,11 +18,6 @@ body{
     align-items: center;
 }
 
-#landing_page #front_page{
-    background-color: green;
-    flex-grow: 1;
-}
-
 #landing_page #navigation_bar a{
     text-decoration: none;
     color: white;
@@ -48,11 +43,23 @@ body{
     }
 }
 
+#landing_page #front_page{
+    background-color: #1d1d1d;
+    flex-grow: 1;
+    display: flex;  
+    justify-content: center;
+    align-items: center;  
+}
 
+#landing_page #front_page img{
+    border-radius: 25%;
+    width: 25vw;
+}
 
-
-
-
-
+@media all and (max-width: 600px) {
+    #landing_page #front_page img{
+        width: 60vw;
+    }
+}
 
 

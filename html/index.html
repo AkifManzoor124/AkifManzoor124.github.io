@@ -11,9 +11,9 @@
 <body>
     <div class="page" id="landing_page">
         <div class="topnav" id="navigation_bar">
-            <a href="#projects_page">Projects</a>
-            <a href="#Resume_Page">Resume</a>
-            <a href="#Contact_Page">Contact</a> 
+            <a href="#projects_title">Projects</a>
+            <a href="#resume_title">Resume</a>
+            <a href="#contact_title">Contact</a> 
             <a href="https://www.github.com/akif124">GitHub</a>                 
         </div>
         <div class="page" id="front_page">
@@ -21,8 +21,7 @@
         </div>
     </div>
 
-    <h1>Projects</h1>
-
+    <h1 id="projects_title">Projects</h1>
     <div class="page" id="projects_page">
         <div class="project"></div>
         <div class="project"></div>
@@ -31,9 +30,36 @@
         <div class="project"></div>
         <div class="project"></div>
     </div>
-    <h1>Resume</h1>
-    <div class="page" id="resume_page"></div>
-    <h1>Contact Me</h1>
-    <div class="page" id="contact_page"></div> 
+
+    <h1 id="resume_title">Resume</h1>
+    <div class="page" id="resume_page">
+        <img src="/images/resume.png" alt="">
+    </div>
+
+    <h1 id="contact_title">Contact Me</h1>
+    <div class="page" id="contact_page">
+        <div id="container">
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="First Name">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Last Name">
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
+            
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <h3>Social Media</h3>
+        <div id="social_media_icons">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-instagram"></a>        
+            <a href="#" class="fa fa-snapchat-ghost"></a>
+        </div>
+    </div> 
 </body>
 </html>

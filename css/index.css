@@ -10,6 +10,12 @@ h1{
     background-color: #333;
     margin: 0%;
     padding: 2px;
+    color: white;
+}
+
+h3{
+    color: white;
+    margin: 0.5rem 0rem; 
 }
 
 #landing_page{
@@ -59,7 +65,7 @@ h1{
 }
 
 #landing_page #front_page img{
-    border-radius: 25%;
+    border-radius: 50%;
     width: 25vw;
 }
 
@@ -70,15 +76,102 @@ h1{
 }
 
 #projects_page{
+    background-color: #1d1d1d;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
 #projects_page .project{
-    background-color: green;
+    background-color: black;
     height: 250px;
     width: calc(33.3333% - 1rem);
     margin: 0.5rem;
     text-align: center;
+}
+
+#resume_page{
+    text-align: center;
+    background-color: #1d1d1d;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#resume_page img{
+    width: 70vw;
+}
+
+#contact_page{
+    background-color: #1d1d1d;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact_page #container{
+    width: 65vw;
+    border-radius: 2%;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#contact_page #container input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+#contact_page #container input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+#contact_page #container input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#contact_page #social_media_icons .fa {
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px 5px;
+    border-radius: 50%;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+  
+#contact_page #social_media_icons .fa:hover {
+    opacity: 0.7;
+}
+
+#contact_page #social_media_icons .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+#contact_page #social_media_icons .fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+#contact_page #social_media_icons .fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+#contact_page #social_media_icons .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }

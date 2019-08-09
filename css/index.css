@@ -27,7 +27,19 @@ h3{
 #landing_page #navigation_bar{
     background-color: #333;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#landing_page #navigation_bar #left{
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+}
+
+#landing_page #navigation_bar #right{
+    display: flex;
+    align-content: flex-start;
     align-items: center;
 }
 
@@ -37,21 +49,31 @@ h3{
     padding: 1em;
 }
 
+#landing_page #navigation_bar #left a{
+    background-color: #4CAF50;
+}
+
 @media all and (max-width: 600px) {
 
-    #navigation_bar {
+    #landing_page #navigation_bar{
+        align-content: center;
+        flex-direction: column;
         flex-flow: column wrap;
         padding: 0;
     }
 
-    #navigation_bar a {
-        text-align: center;
-        padding: 10px;
-        border-top: 1px solid rgba(255, 255, 255, 0.3);
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    #landing_page #navigation_bar #right{
+        align-content: center;
+        flex-flow: column wrap;
+        padding: 0;
     }
 
-    #navigation_bar a:last-of-type a {
+    #landing_page #navigation_bar a {
+        text-align: center;
+        padding: 10px;
+    }
+
+    #landing_page #navigation_bar a:last-of-type a {
         border-bottom: none;
     }
 }

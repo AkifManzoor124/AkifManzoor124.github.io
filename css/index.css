@@ -18,6 +18,10 @@ h3{
     margin: 0.5rem 0rem; 
 }
 
+a{
+  color: inherit;  
+}
+
 #landing_page{
     height: 100vh;
     display: flex;

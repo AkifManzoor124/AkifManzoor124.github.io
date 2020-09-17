@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/AkifManzoor124.github.io/static/css/main.e8947b81.chunk.css",
+    "main.js": "/AkifManzoor124.github.io/static/js/main.3f0fbf25.chunk.js",
+    "main.js.map": "/AkifManzoor124.github.io/static/js/main.3f0fbf25.chunk.js.map",
+    "runtime-main.js": "/AkifManzoor124.github.io/static/js/runtime-main.cb5ed7ed.js",
+    "runtime-main.js.map": "/AkifManzoor124.github.io/static/js/runtime-main.cb5ed7ed.js.map",
+    "static/js/2.5f57e9e6.chunk.js": "/AkifManzoor124.github.io/static/js/2.5f57e9e6.chunk.js",
+    "static/js/2.5f57e9e6.chunk.js.map": "/AkifManzoor124.github.io/static/js/2.5f57e9e6.chunk.js.map",
+    "index.html": "/AkifManzoor124.github.io/index.html",
+    "precache-manifest.20f9ed39ee30fee8db0ff6f9f0969677.js": "/AkifManzoor124.github.io/precache-manifest.20f9ed39ee30fee8db0ff6f9f0969677.js",
+    "service-worker.js": "/AkifManzoor124.github.io/service-worker.js",
+    "static/css/main.e8947b81.chunk.css.map": "/AkifManzoor124.github.io/static/css/main.e8947b81.chunk.css.map",
+    "static/js/2.5f57e9e6.chunk.js.LICENSE.txt": "/AkifManzoor124.github.io/static/js/2.5f57e9e6.chunk.js.LICENSE.txt",
+    "static/media/Akif.jpg": "/AkifManzoor124.github.io/static/media/Akif.a72422c3.jpg",
+    "static/media/resume.jpg": "/AkifManzoor124.github.io/static/media/resume.e9e71700.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb5ed7ed.js",
+    "static/js/2.5f57e9e6.chunk.js",
+    "static/css/main.e8947b81.chunk.css",
+    "static/js/main.3f0fbf25.chunk.js"
+  ]
+}

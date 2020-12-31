@@ -1,0 +1,10 @@
+#mainNav .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.scroll-to-top {
+    position: fixed !important;
+    bottom: 20px !important;
+    right: 20px !important;
+}

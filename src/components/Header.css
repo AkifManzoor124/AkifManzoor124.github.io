@@ -1,0 +1,10 @@
+.scroll-to-top {
+    background-color: red;
+    width: 100px;
+    height: 60px;
+    position: fixed;
+    bottom: 10px;
+    display: flex;
+    right:auto;
+    right: 1rem;
+}

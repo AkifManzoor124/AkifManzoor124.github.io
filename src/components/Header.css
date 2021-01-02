@@ -1,4 +1,5 @@
 .scroll-to-top {
+    transition: all .25s ease-in-out;
     background-color: red;
     width: 100px;
     height: 60px;

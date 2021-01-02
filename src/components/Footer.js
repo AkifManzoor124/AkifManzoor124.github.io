@@ -10,10 +10,10 @@ function Footer() {
                         <div >
                             <h4 className="text-uppercase">Around the Web</h4>
                             <ul className="list-inline">
-                                <li className="list-inline-item"><a className="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="#"><i className="fa fa-facebook fa-fw" /></a></li>
-                                <li className="list-inline-item"><a className="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="#"><i className="fa fa-linkedin fa-fw" /></a></li>
-                                <li className="list-inline-item"><a className="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="#"><i className="fa fa-github fa-fw" /></a></li>
-                                <li className="list-inline-item"><a className="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="#"><i className="fa fa-dribbble fa-fw" /></a></li>
+                                <li className="list-inline-item"><a className="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="https://www.facebook.com/Akif124"><i className="fa fa-facebook fa-fw" /></a></li>
+                                <li className="list-inline-item"><a className="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="https://www.linkedin.com/in/akif-manzoor/"><i className="fa fa-linkedin fa-fw" /></a></li>
+                                <li className="list-inline-item"><a className="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="https://github.com/AkifManzoor124"><i className="fa fa-github fa-fw" /></a></li>
+                                <li className="list-inline-item"><a className="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="https://www.instagram.com/akifmanzoor124/"><i className="fa fa-instagram fa-fw" /></a></li>
                             </ul>
                         </div>
                     </div>

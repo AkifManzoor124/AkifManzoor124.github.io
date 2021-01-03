@@ -1,24 +1,29 @@
 {
   "files": {
-    "main.css": "/AkifManzoor124.github.io/static/css/main.e8947b81.chunk.css",
-    "main.js": "/AkifManzoor124.github.io/static/js/main.3f0fbf25.chunk.js",
-    "main.js.map": "/AkifManzoor124.github.io/static/js/main.3f0fbf25.chunk.js.map",
-    "runtime-main.js": "/AkifManzoor124.github.io/static/js/runtime-main.cb5ed7ed.js",
-    "runtime-main.js.map": "/AkifManzoor124.github.io/static/js/runtime-main.cb5ed7ed.js.map",
-    "static/js/2.5f57e9e6.chunk.js": "/AkifManzoor124.github.io/static/js/2.5f57e9e6.chunk.js",
-    "static/js/2.5f57e9e6.chunk.js.map": "/AkifManzoor124.github.io/static/js/2.5f57e9e6.chunk.js.map",
+    "main.css": "/AkifManzoor124.github.io/static/css/main.8b532707.chunk.css",
+    "main.js": "/AkifManzoor124.github.io/static/js/main.6c2169da.chunk.js",
+    "main.js.map": "/AkifManzoor124.github.io/static/js/main.6c2169da.chunk.js.map",
+    "runtime-main.js": "/AkifManzoor124.github.io/static/js/runtime-main.564461f2.js",
+    "runtime-main.js.map": "/AkifManzoor124.github.io/static/js/runtime-main.564461f2.js.map",
+    "static/js/2.bb4a7cc0.chunk.js": "/AkifManzoor124.github.io/static/js/2.bb4a7cc0.chunk.js",
+    "static/js/2.bb4a7cc0.chunk.js.map": "/AkifManzoor124.github.io/static/js/2.bb4a7cc0.chunk.js.map",
     "index.html": "/AkifManzoor124.github.io/index.html",
-    "precache-manifest.20f9ed39ee30fee8db0ff6f9f0969677.js": "/AkifManzoor124.github.io/precache-manifest.20f9ed39ee30fee8db0ff6f9f0969677.js",
-    "service-worker.js": "/AkifManzoor124.github.io/service-worker.js",
-    "static/css/main.e8947b81.chunk.css.map": "/AkifManzoor124.github.io/static/css/main.e8947b81.chunk.css.map",
-    "static/js/2.5f57e9e6.chunk.js.LICENSE.txt": "/AkifManzoor124.github.io/static/js/2.5f57e9e6.chunk.js.LICENSE.txt",
-    "static/media/Akif.jpg": "/AkifManzoor124.github.io/static/media/Akif.a72422c3.jpg",
-    "static/media/resume.jpg": "/AkifManzoor124.github.io/static/media/resume.e9e71700.jpg"
+    "static/css/main.8b532707.chunk.css.map": "/AkifManzoor124.github.io/static/css/main.8b532707.chunk.css.map",
+    "static/js/2.bb4a7cc0.chunk.js.LICENSE.txt": "/AkifManzoor124.github.io/static/js/2.bb4a7cc0.chunk.js.LICENSE.txt",
+    "static/media/cabin.44173302.png": "/AkifManzoor124.github.io/static/media/cabin.44173302.png",
+    "static/media/cake.65544730.png": "/AkifManzoor124.github.io/static/media/cake.65544730.png",
+    "static/media/circus.494a4a91.png": "/AkifManzoor124.github.io/static/media/circus.494a4a91.png",
+    "static/media/font-awesome.min.css": "/AkifManzoor124.github.io/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/game.a940b57a.png": "/AkifManzoor124.github.io/static/media/game.a940b57a.png",
+    "static/media/profile.39e1e0a6.png": "/AkifManzoor124.github.io/static/media/profile.39e1e0a6.png",
+    "static/media/resume.4e5cc1b0.pdf": "/AkifManzoor124.github.io/static/media/resume.4e5cc1b0.pdf",
+    "static/media/safe.01792c0b.png": "/AkifManzoor124.github.io/static/media/safe.01792c0b.png",
+    "static/media/submarine.48c9704c.png": "/AkifManzoor124.github.io/static/media/submarine.48c9704c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.cb5ed7ed.js",
-    "static/js/2.5f57e9e6.chunk.js",
-    "static/css/main.e8947b81.chunk.css",
-    "static/js/main.3f0fbf25.chunk.js"
+    "static/js/runtime-main.564461f2.js",
+    "static/js/2.bb4a7cc0.chunk.js",
+    "static/css/main.8b532707.chunk.css",
+    "static/js/main.6c2169da.chunk.js"
   ]
 }

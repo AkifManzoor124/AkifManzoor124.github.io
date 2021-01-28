@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/AkifManzoor124.github.io/static/css/main.9366d724.chunk.css",
-    "main.js": "/AkifManzoor124.github.io/static/js/main.255727ce.chunk.js",
-    "main.js.map": "/AkifManzoor124.github.io/static/js/main.255727ce.chunk.js.map",
+    "main.js": "/AkifManzoor124.github.io/static/js/main.d3b2cbe4.chunk.js",
+    "main.js.map": "/AkifManzoor124.github.io/static/js/main.d3b2cbe4.chunk.js.map",
     "runtime-main.js": "/AkifManzoor124.github.io/static/js/runtime-main.564461f2.js",
     "runtime-main.js.map": "/AkifManzoor124.github.io/static/js/runtime-main.564461f2.js.map",
-    "static/js/2.e1fac1a0.chunk.js": "/AkifManzoor124.github.io/static/js/2.e1fac1a0.chunk.js",
-    "static/js/2.e1fac1a0.chunk.js.map": "/AkifManzoor124.github.io/static/js/2.e1fac1a0.chunk.js.map",
+    "static/js/2.7b2fa233.chunk.js": "/AkifManzoor124.github.io/static/js/2.7b2fa233.chunk.js",
+    "static/js/2.7b2fa233.chunk.js.map": "/AkifManzoor124.github.io/static/js/2.7b2fa233.chunk.js.map",
     "index.html": "/AkifManzoor124.github.io/index.html",
     "static/css/main.9366d724.chunk.css.map": "/AkifManzoor124.github.io/static/css/main.9366d724.chunk.css.map",
-    "static/js/2.e1fac1a0.chunk.js.LICENSE.txt": "/AkifManzoor124.github.io/static/js/2.e1fac1a0.chunk.js.LICENSE.txt",
+    "static/js/2.7b2fa233.chunk.js.LICENSE.txt": "/AkifManzoor124.github.io/static/js/2.7b2fa233.chunk.js.LICENSE.txt",
     "static/media/cabin.44173302.png": "/AkifManzoor124.github.io/static/media/cabin.44173302.png",
     "static/media/cake.65544730.png": "/AkifManzoor124.github.io/static/media/cake.65544730.png",
     "static/media/circus.494a4a91.png": "/AkifManzoor124.github.io/static/media/circus.494a4a91.png",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.564461f2.js",
-    "static/js/2.e1fac1a0.chunk.js",
+    "static/js/2.7b2fa233.chunk.js",
     "static/css/main.9366d724.chunk.css",
-    "static/js/main.255727ce.chunk.js"
+    "static/js/main.d3b2cbe4.chunk.js"
   ]
 }

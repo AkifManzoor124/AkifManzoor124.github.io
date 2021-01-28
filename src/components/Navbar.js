@@ -1,8 +1,8 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import { Link, animateScroll } from 'react-scroll';
 import { useScrollPosition } from '@n8tb1t/use-scroll-position'
 import './Navbar.css'
-import { Fab} from '@material-ui/core';
+import { Fab } from '@material-ui/core';
 import NavigationIcon from '@material-ui/icons/Navigation';
 
 function Navbar() {
@@ -13,9 +13,9 @@ function Navbar() {
     };
 
     useScrollPosition(({ prevPos, currPos }) => {
-        if(currPos.y < -2000){
+        if (currPos.y < -2000) {
             setScrolled(true);
-        }else{
+        } else {
             setScrolled(false);
         }
     })
@@ -37,8 +37,8 @@ function Navbar() {
                     </div>
                 </div>
             </nav>
-            <Fab variant="extended" className={ scrolled === false ? 'scroll-to-top-hide' : 'scroll-to-top'} onClick={scrollToTop}>
-                <NavigationIcon/>
+            <Fab variant="extended" className={scrolled === false ? 'scroll-to-top-hide' : 'scroll-to-top'} onClick={scrollToTop}>
+                <NavigationIcon />
             </Fab>
         </div>
     )

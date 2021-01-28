@@ -1,3 +1,9 @@
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 import './App.css';
 import './bootstrap/css/bootstrap.min.css'
 import './fonts/font-awesome.min.css'
@@ -8,8 +14,9 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Navbar from './components/Navbar'
 import Resume from './components/Resume'
+import Ericsson from './components/Ericsson'
 
-function App() {
+function MainContent() {
   return (
     <div className="App">
       <div>
@@ -29,5 +36,21 @@ function App() {
     </div>
   );
 }
+
+function App() {
+  return (
+    <Router>
+      <Switch>
+        <Route path="/ericsson">
+          <Ericsson />
+        </Route>
+        <Route path="/">
+          <MainContent />
+        </Route>
+      </Switch>
+    </Router>
+  );
+}
+
 
 export default App;

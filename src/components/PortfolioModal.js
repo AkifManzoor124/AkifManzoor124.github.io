@@ -1,4 +1,4 @@
-import React, {forwardRef} from 'react';
+import React, { forwardRef } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import Dialog from '@material-ui/core/Dialog';
@@ -8,6 +8,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import CloseIcon from '@material-ui/icons/Close';
 import Slide from '@material-ui/core/Slide';
+import Ericsson from './Ericsson';
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
@@ -23,8 +24,17 @@ const Transition = forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
 });
 
-function FullScreenDialog({ open, handleClickOpen, handleClose, name}) {
+function FullScreenDialog({ open, handleClickOpen, handleClose, name }) {
   const classes = useStyles();
+
+  const modalContent = (name) => {
+    switch (name) {
+      case 'Ericsson':
+        return <Ericsson />
+      default:
+        break;
+    }
+  }
 
   return (
     <div>
@@ -35,14 +45,14 @@ function FullScreenDialog({ open, handleClickOpen, handleClose, name}) {
               <CloseIcon />
             </IconButton>
             <Typography variant="h6" className={classes.title}>
-                {name}
+              {name}
             </Typography>
             <Button autoFocus color="inherit" onClick={handleClose}>
               save
             </Button>
           </Toolbar>
+          {modalContent(name)}
         </AppBar>
-          
       </Dialog>
     </div>
   );

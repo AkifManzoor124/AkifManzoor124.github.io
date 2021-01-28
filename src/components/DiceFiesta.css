@@ -1,0 +1,11 @@
+.emulatorFrame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.emulatorFrame > iframe {
+  height: 64vh;
+  border: none;
+}

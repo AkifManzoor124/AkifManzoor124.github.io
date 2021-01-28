@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route
 } from "react-router-dom";
@@ -15,6 +15,7 @@ import Contact from './components/Contact'
 import Navbar from './components/Navbar'
 import Resume from './components/Resume'
 import Ericsson from './components/Ericsson'
+import DiceFiesta from './components/DiceFiesta'
 
 function MainContent() {
   return (
@@ -39,16 +40,19 @@ function MainContent() {
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename='/'>
       <Switch>
         <Route path="/ericsson">
           <Ericsson />
+        </Route>
+        <Route path="/dicefiesta">
+          <DiceFiesta />
         </Route>
         <Route path="/">
           <MainContent />
         </Route>
       </Switch>
-    </Router>
+    </HashRouter>
   );
 }
 

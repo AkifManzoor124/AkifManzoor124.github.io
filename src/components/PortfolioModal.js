@@ -9,6 +9,7 @@ import Typography from '@material-ui/core/Typography';
 import CloseIcon from '@material-ui/icons/Close';
 import Slide from '@material-ui/core/Slide';
 import Ericsson from './Ericsson';
+import DiceFiesta from './DiceFiesta';
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
@@ -31,6 +32,8 @@ function FullScreenDialog({ open, handleClickOpen, handleClose, name }) {
     switch (name) {
       case 'Ericsson':
         return <Ericsson />
+      case 'Dice Fiesta':
+        return <DiceFiesta />
       default:
         break;
     }

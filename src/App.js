@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  HashRouter,
+  BrowserRouter,
   Switch,
   Route
 } from "react-router-dom";
@@ -40,19 +40,19 @@ function MainContent() {
 
 function App() {
   return (
-    <HashRouter basename='/'>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
-        <Route path="/ericsson">
+        <Route path={process.env.PUBLIC_URL + "/ericsson"}>
           <Ericsson />
         </Route>
-        <Route path="/dicefiesta">
+        <Route path={process.env.PUBLIC_URL + "/dicefiesta"}>
           <DiceFiesta />
         </Route>
-        <Route path="/">
+        <Route path={process.env.PUBLIC_URL + "/"}>
           <MainContent />
         </Route>
       </Switch>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

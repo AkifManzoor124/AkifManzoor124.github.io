@@ -1,5 +1,5 @@
 import React from 'react'
-import ericssonGUI from '../img/ericssonGUI.png'
+import ericssonGUI from '../img/portfolio/ericssonGUI.png'
 import './Ericsson.css'
 
 function Ericsson() {

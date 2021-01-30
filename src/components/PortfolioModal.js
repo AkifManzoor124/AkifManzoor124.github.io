@@ -28,6 +28,7 @@ const Transition = forwardRef(function Transition(props, ref) {
 function FullScreenDialog({ open, handleClickOpen, handleClose, name }) {
   const classes = useStyles();
 
+  //I can dislay the microsoft graph data here. Create a modal that looks proper depending on the name that is sent 
   const modalContent = (name) => {
     switch (name) {
       case 'Ericsson':

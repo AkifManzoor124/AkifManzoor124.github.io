@@ -54,8 +54,8 @@ function FullScreenDialog({ open, handleClickOpen, handleClose, name }) {
               save
             </Button>
           </Toolbar>
-          {modalContent(name)}
         </AppBar>
+        {modalContent(name)}
       </Dialog>
     </div>
   );

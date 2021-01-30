@@ -18,10 +18,11 @@ import Ericsson from './components/Ericsson'
 import DiceFiesta from './components/DiceFiesta'
 
 function MainContent() {
+
   return (
     <div className="App">
       <div>
-        <meta charSet="utf-8" />
+        <meta charSet="utf-8" />S
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
         <title>Akif Manzoor</title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" />

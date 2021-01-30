@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.26924acc.chunk.css",
+    "main.js": "/static/js/main.d7ee56d9.chunk.js",
+    "main.js.map": "/static/js/main.d7ee56d9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e388654f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e388654f.js.map",
+    "static/js/2.e1fac1a0.chunk.js": "/static/js/2.e1fac1a0.chunk.js",
+    "static/js/2.e1fac1a0.chunk.js.map": "/static/js/2.e1fac1a0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.26924acc.chunk.css.map": "/static/css/main.26924acc.chunk.css.map",
+    "static/js/2.e1fac1a0.chunk.js.LICENSE.txt": "/static/js/2.e1fac1a0.chunk.js.LICENSE.txt",
+    "static/media/cabin.44173302.png": "/static/media/cabin.44173302.png",
+    "static/media/cake.65544730.png": "/static/media/cake.65544730.png",
+    "static/media/circus.494a4a91.png": "/static/media/circus.494a4a91.png",
+    "static/media/ericssonGUI.b492f781.png": "/static/media/ericssonGUI.b492f781.png",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/game.a940b57a.png": "/static/media/game.a940b57a.png",
+    "static/media/profile.39e1e0a6.png": "/static/media/profile.39e1e0a6.png",
+    "static/media/resume.63ea5845.pdf": "/static/media/resume.63ea5845.pdf",
+    "static/media/safe.01792c0b.png": "/static/media/safe.01792c0b.png",
+    "static/media/submarine.48c9704c.png": "/static/media/submarine.48c9704c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e388654f.js",
+    "static/js/2.e1fac1a0.chunk.js",
+    "static/css/main.26924acc.chunk.css",
+    "static/js/main.d7ee56d9.chunk.js"
+  ]
+}

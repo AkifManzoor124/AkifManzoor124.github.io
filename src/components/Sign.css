@@ -2,8 +2,10 @@
   width: 85px;
   height: 118px;
   position: fixed;
-  bottom: 120px !important;
-  right: 320px !important;
+  bottom: 65px !important;
+  right: 220px !important;
+  z-index: 999;
+  transform: scale(0.7); /* Equal to scaleX(0.7) scaleY(0.7) */
 }
 
 .Rectangle1 {
@@ -46,118 +48,6 @@
   top: 158px;
   position: absolute;
   background-color: rgba(98, 85, 73, 1);
-  border-radius: 9999px;
-}
-
-.Ellipse4 {
-  width: 40px;
-  height: 149px;
-  border-radius: 50%;
-  border-style: solid;
-  border-width: 4px;
-  border-color: grey;
-  left: 172px;
-  top: 30px;
-  position: absolute;
-  background-color: rgba(196, 196, 196, 100);
-}
-
-.Ellipse6 {
-  transform: rotate(20deg);
-  width: 24px;
-  height: 137px;
-  left: -64px;
-  top: -50px;
-  position: absolute;
-  background-color: rgba(196, 196, 196, 1);
-  border-radius: 9999px;
-}
-
-.Ellipse7 {
-  transform: rotate(-20deg);
-  width: 24px;
-  height: 137px;
-  left: -17px;
-  top: -50px;
-  position: absolute;
-  background-color: rgba(196, 196, 196, 1);
-  border-radius: 9999px;
-}
-
-.Ellipse8 {
-  transform: rotate(-40deg);
-  width: 24px;
-  height: 142.02px;
-  left: -17px;
-  top: -32.85px;
-  position: absolute;
-  background-color: rgba(196, 196, 196, 1);
-  border-radius: 9999px;
-}
-
-.Ellipse9 {
-  transform: rotate(-60deg);
-  width: 24px;
-  height: 143.99px;
-  left: -12px;
-  top: 0.01px;
-  position: absolute;
-  background-color: rgba(196, 196, 196, 1);
-  border-radius: 9999px;
-}
-
-.Ellipse10 {
-  transform: rotate(-80deg);
-  width: 24px;
-  height: 149.78px;
-  left: -10px;
-  top: 45px;
-  position: absolute;
-  background-color: rgba(196, 196, 196, 1);
-  border-radius: 9999px;
-}
-
-.Ellipse11 {
-  transform: rotate(40deg);
-  width: 24px;
-  height: 137px;
-  left: -101px;
-  top: -35px;
-  position: absolute;
-  background-color: rgba(196, 196, 196, 1);
-  border-radius: 9999px;
-}
-
-.Ellipse12 {
-  transform: rotate(60deg);
-  width: 24px;
-  height: 141.81px;
-  left: -133.16px;
-  top: -4.4px;
-  position: absolute;
-  background-color: rgba(196, 196, 196, 1);
-  border-radius: 9999px;
-}
-
-.Ellipse13 {
-  transform: rotate(80deg);
-  width: 24px;
-  height: 147.69px;
-  left: -151.79px;
-  top: 41.98px;
-  position: absolute;
-  background-color: rgba(196, 196, 196, 1);
-  border-radius: 9999px;
-}
-
-.Ellipse14 {
-  width: 13px;
-  height: 13px;
-  left: 186px;
-  top: 172px;
-  position: absolute;
-  background-color: rgba(249, 245, 225, 1);
-  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 9999px;
 }
 

@@ -12,7 +12,7 @@ function About() {
                             <p className="lead">Greetings digital traveller. You've stumbled upon my personal website. Here, you can see my personal and professional development. Feast your eyes on my resume below.</p>
                         </div>
                         <div className="col-lg-4 mr-auto">
-                            <p className="lead">I am a full stack developer and a passionate learner. I will try to digest anything I can get my hands onto (not just food). I love developing projects and experimenting with new technologies - not just tech related.</p>
+                            <p className="lead">I am a full stack developer and a passionate learner. I will try to digest anything I can get my hands onto (not just food). I love developing projects and experimenting with new technologies</p>
                         </div>
                     </div>
                 </div>

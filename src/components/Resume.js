@@ -16,7 +16,7 @@ function Resume() {
                     <div className="row" >
                         <div>
                             <Document file={resumePDF} onLoadSuccess={null}>
-                                <Page pageNumber={1} height="1000" width='1200' />
+                                <Page pageNumber={1} height={1000} width={1000} />
                             </Document>
                         </div>
                     </div>

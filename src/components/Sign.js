@@ -8,7 +8,6 @@ function Sign() {
     useScrollPosition(({ prevPos, currPos }) => {
         var scrollMaxY = window.scrollMaxY || (document.documentElement.scrollHeight - document.documentElement.clientHeight)
         setRotation(-90 + ((currPos.y / -scrollMaxY) * 100) * 1.8)
-
     })
 
     return (
